@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 tv.setText(data.getStringExtra("et"));
                 break;
         }
-        super.onActivityResult(requestCode, resultCode, data);
     }
 }
 
